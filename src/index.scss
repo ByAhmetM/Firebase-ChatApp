@@ -190,6 +190,14 @@ button {
   align-self: flex-end;
   padding: 4px 8px;
   border-radius: 7px 7px 0 7px;
+  user-select: none;
+}
+
+.msg-text {
+  background: pink;
+  padding: 4px 8px;
+  border-radius: 0 7px 7px 7px;
+  user-select: none;
 }
 
 .email-form {
