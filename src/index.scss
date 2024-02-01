@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+*::-webkit-scrollbar {
+  width: 5px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: red;
+  border-radius: 50%;
+}
+
 body {
   min-height: 100vh;
   font-family: "Poppins";
